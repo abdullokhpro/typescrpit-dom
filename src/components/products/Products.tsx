@@ -1,5 +1,6 @@
 import axios from "axios";
-import { FC, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+
 import "./products.scss";
 
 interface Product {
@@ -9,7 +10,7 @@ interface Product {
   thumbnail: string;
 }
 
-const Products: FC = () => {
+const Products = () => {
   const [data, setData] = useState<Product[] | null>(null);
 
   useEffect(() => {

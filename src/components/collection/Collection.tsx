@@ -1,8 +1,7 @@
-import React, { FC } from "react";
 import "./collection.scss";
 import collection from "../../assets/collection/collection.png";
 
-const Collection: FC = () => {
+const Collection = () => {
   return (
     <section className="collection">
       <div className="container collection__container">

@@ -1,8 +1,7 @@
-import React, { FC } from "react";
 import "./footer.scss";
 import image from "../../assets/footer/Rectangle 2.png";
 
-const Footer: FC = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">

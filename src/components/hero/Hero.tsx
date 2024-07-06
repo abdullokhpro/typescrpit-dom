@@ -1,8 +1,7 @@
-import React, { FC } from "react";
 import "./hero.scss";
 import heroUp from "../../assets/hero/hero-logo.png";
 
-const Hero: FC = () => {
+const Hero = () => {
   return (
     <section className="hero">
       <div className="container hero__container">

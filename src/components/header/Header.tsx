@@ -1,4 +1,3 @@
-import React, { FC } from "react";
 import { IoCallOutline } from "react-icons/io5";
 import "./header.scss";
 import { IoExitOutline } from "react-icons/io5";
@@ -6,7 +5,7 @@ import logo from "../../assets/header/PORTEN.svg";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 
-const Header: FC = () => {
+const Header = () => {
   return (
     <>
       <header className="header">
