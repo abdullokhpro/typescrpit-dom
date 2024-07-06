@@ -1,0 +1,17 @@
+.footer {
+  padding: 50px 0;
+  background-color: #0f0f0f;
+  color: #fff;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

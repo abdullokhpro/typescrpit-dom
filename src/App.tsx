@@ -1,5 +1,6 @@
 import "./App.css";
 import Collection from "./components/collection/Collection";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Products from "./components/products/Products";
@@ -13,6 +14,7 @@ function App() {
         <Collection />
         <Products />
       </main>
+      <Footer />
     </>
   );
 }
